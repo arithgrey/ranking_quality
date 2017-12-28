@@ -1,0 +1,530 @@
+.contenedor_load{
+  width: 30%;
+
+}
+.tab_enid_w{
+
+color: white;
+}
+.info-dia-p:hover{
+    cursor: pointer;
+}
+.info-d:hover{
+    cursor: pointer;    
+}
+
+.info-dia-p , .info-d{
+    font-weight: bold;
+    color: #0C3D45;
+}
+.contenedor_inf{
+    overflow: auto;
+}
+
+.dropdown-menu-large > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.menu-corto{
+  display: none;
+}
+.btn-servicio-hidden{
+  display: none;
+}
+.menu-largo{
+  //width: 40%;
+}
+.img_categoria_place{
+  width: 250px;
+  
+}
+@media (max-width: 768px) {
+  .dropdown-menu-large {
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .dropdown-menu-large > li:last-child {
+    margin-bottom: 0;
+  }
+  .dropdown-menu-large .dropdown-header {
+    padding:2px 10px !important;
+  }
+  .menu-largo{
+    display: none;
+  }
+  
+  .menu-corto{
+    display: block;
+
+  }
+  .btn-servicio-hidden{
+    display: block;
+  }
+
+}
+
+    body{
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    }
+    .nombre_servicio_actual{
+      color: #12aafc;
+    }  
+    .navbar-default:hover{
+      cursor: pointer;
+    }
+    .resumen_saldos{
+      background: #2196f3;
+      margin-left: 1px;
+      font-size: .85em;
+      padding: 2px;
+      color: white;
+      font-weight: bold;
+    }
+    .alerta_servicio{
+      background: #b5134a !important;
+    }
+    .text-total{
+      font-size: .9em;
+    }
+    .seccion-icono{      
+      background: #166781;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: .9em;
+      margin-left: 1px;
+    }
+    .btn_mn{
+
+      background: #2196f3;
+      padding: 3px;
+      color: white;
+    }
+    .servicio_en_activo_enid{
+      background: #2196f3 !important;  
+    }
+    .nombre_servicio_a_transferir{
+        background: #0a67b1;
+        font-weight: bold;
+        color: white;
+    }
+    .mover_registro:hover, 
+    .editar_registro:hover, 
+    .egresos-btn:hover , 
+    .ingresos-btn:hover, 
+    .agregar-categoria:hover,
+    .comparativa-btn:hover,
+    .balance-btn:hover ,
+    .nuevo_ingreso_btn:hover ,
+    .tranfiere_ingreso_btn:hover, 
+    .menu_servicios_enid:hover ,
+    .btn_mn:hover , 
+    .balance-btn:hover,
+    .eliminar_registro:hover{
+      cursor: pointer;
+    }   
+    .las_servicios{
+      background: #166781;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: .9em;
+      margin-left: 1px;
+    }       
+    .menu_servicios_enid{
+      background: #022631;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: .9em;
+      margin-left: 1px;
+    }
+    .ingresos-btn,
+    .egresos-btn,
+    .balance-btn,
+    .comparativa-btn,
+    .servicio_btn,
+    .nuevo_ingreso_btn,
+    .tranfiere_ingreso_btn , 
+    .balance-btn {
+      background: #022631;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: .9em;
+    }
+    .tranfiere_ingreso_btn{
+      margin-left: 1px;
+    }
+    .servicio_btn{
+      background: #068ffb !important;
+      margin-left: 1px;     
+    }
+    .agregar-categoria{
+      font-weight: bold;
+      font-size: .9em;
+      text-align: left;
+    }    
+    .contendor-servicio-info{
+      overflow-y:scroll; 
+      overflow-x:hidden; 
+      height: 400px;
+    }    
+    .contenedor_principal_secciones{
+      height: 620px;
+      overflow-x: auto;
+    }.selectec_class{
+      background: #068ffb;
+    }
+    .icono_servicios,  .nombre_servicio_icono{
+      display: inline-table;
+    }
+    .menu-l , .nombre_servicio_icono{
+      background: #068ffb !important;  
+      padding: 3px;
+      color: white !important;
+    }
+
+    @media only screen and (max-width: 991px) {
+      .servicios-menu{                
+        overflow-y:auto;
+      }
+      .nombre_servicio_sm{
+        background: #068ffb !important;  
+      }
+      .text_menu_info{
+        display: none;
+      }
+      
+    }    
+    #ir_encuesta{
+      background: #166781;
+      color: white;
+      font-weight: bold;
+      padding: 2px;  
+      border-radius: 3px;
+      font-size: .8em;
+      text-decoration: none;
+    }
+    #ir_encuesta_fb{
+      background: #4267b2;
+      color: white;
+      font-weight: bold;
+      padding: 2px;  
+      border-radius: 3px;
+      font-size: .8em;
+      text-decoration: none;
+    }#copiar_enlace{
+      background: #d9534f;
+      color: white;
+      font-weight: bold;
+      padding: 2px;  
+      border-radius: 3px;
+      font-size: .8em;
+      text-decoration: none;
+    }
+    #copiar_enlace:hover{
+      cursor: pointer;
+    }
+
+    #ir_encuesta , #ir_encuesta_fb, #ir_encuesta_tw, #copiar_enlace{
+      display: inline-table;
+    }
+
+    .contenedor_comentarios{
+  height: 250px;
+  overflow: auto;
+}
+.testimonial{
+    margin-bottom: 10px;
+}
+
+    .testimonial-section {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+        border: 1px solid #fff;
+    }
+    .testimonial-section:after {
+        top: 100%;
+        left: 50px;
+        border: solid transparent;
+        content: " ";
+        position: absolute;
+        border-top-color: #fff;
+        border-width: 15px;
+        margin-left: -15px;
+    }
+
+    .testimonial-desc {
+        margin-top: 20px;
+        text-align:left;
+        padding-left: 15px;
+    }
+        .testimonial-desc img {
+            border: 1px solid #f5f5f5;
+            border-radius: 150px;
+            height: 70px;
+            padding: 3px;
+            width: 70px;
+            display:inline-block;
+            vertical-align: top;
+        }
+
+        .testimonial-writer{
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 10px;
+        }
+
+            .testimonial-writer-name{
+                font-weight: bold;
+            }
+
+            .testimonial-writer-designation{
+                font-size: 85%;
+            }
+
+            .testimonial-writer-company{
+                font-size: 85%;
+                font-weight: bold;
+
+            }
+    
+.calificacion_rank:hover{
+  cursor: pointer;
+}
+.indicador{
+  font-size: 2em;
+  font-weight: bold;
+    background: #10a9fc;
+    color: white;
+    margin-right: 10px;
+    padding: 5px;
+}
+.seccion-califica p {
+  text-align: center;
+}
+
+.seccion-califica label {
+  font-size: 50px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #10A9FC;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.input-start:hover , .s-estrella:hover{
+    cursor: pointer;
+}
+label:hover,
+label:hover ~ label {
+  color: #10A9FC;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #10A9FC;
+}
+
+
+.text-mejora{
+    color: #078AEA;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.form-servicio label , .lb-enid{
+        font-weight: bold;
+}
+div.lateral-s{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.lateral-s div.list-group{
+  margin-bottom: 0;
+}
+div.lateral-s div.list-group>a{
+  margin-bottom: 0;
+}
+div.lateral-s div.list-group>a .glyphicon,
+div.lateral-s div.list-group>a .fa {
+  color: #5A55A3;
+}
+div.lateral-s div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.lateral-s div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.lateral-s div.list-group>a.active,
+div.lateral-s div.list-group>a.active .glyphicon,
+div.lateral-s div.list-group>a.active .fa{
+  background-color: #166781;
+  background-image: #166781;
+  color: #ffffff;
+}
+div.lateral-s div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #5A55A3;
+}
+.list-group-item{
+  font-size: .8em !important; 
+}
+
+
+
+
+
+/**/
+.botones_graficos{
+  text-align: right;
+  background: #053753;
+  padding: 1px;
+  color: white;
+  width: 100%;
+}
+.btn_graficos:hover{
+  cursor: pointer;
+}
+.contenedor-exportar{
+  text-align: right;
+}
+.exporta_info_encuesta{
+    background: #ea2a61;
+    color: white;
+    padding: 3px;
+}
+.exporta_info_encuesta:hover{
+  cursor: pointer;
+}
+.contenedor_img_servicio{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@-moz-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@-o-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+.m-progress {
+    position: relative;
+    opacity: .8;
+    color: transparent !important;
+    text-shadow: none !important;
+}
+
+.m-progress:hover,
+.m-progress:active,
+.m-progress:focus {
+    cursor: default;
+    color: transparent;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.m-progress:before {
+    content: '';
+    
+    display: inline-block;
+    
+    position: absolute;
+    background: transparent;
+    border: 1px solid #fff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    
+    box-sizing: border-box;
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    
+    width: 24px;
+    height: 24px;
+    
+    -webkit-animation: ld 1s ease-in-out infinite;
+    -moz-animation:    ld 1s ease-in-out infinite;
+    -o-animation:      ld 1s ease-in-out infinite;
+    animation:         ld 1s ease-in-out infinite;
+}
+
+.btn-default.m-progress:before {
+    border-left-color: #333333;
+    border-right-color: #333333;
+}
+
+.btn-lg.m-progress:before {
+    margin-top: -16px;
+    margin-left: -16px;
+    
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm.m-progress:before {
+    margin-top: -9px;
+    margin-left: -9px;
+    
+    width: 18px;
+    height: 18px;
+}
+
+.btn-xs.m-progress:before {
+    margin-top: -7px;
+    margin-left: -7px;
+    
+    width: 14px;
+    height: 14px;
+}
